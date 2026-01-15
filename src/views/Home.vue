@@ -8,6 +8,8 @@ import {
   socialTasks 
 } from '../constants/data'
 
+const baseUrl = import.meta.env.BASE_URL
+
 // Slider
 const currentSlide = ref(0)
 
@@ -85,7 +87,7 @@ onUnmounted(() => {
     <div class="hero-slider">
       <div class="slider-container" :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
         <div v-for="(slide, index) in slides" :key="index" class="slide image-slide">
-          <img :src="slide.image" :alt="slide.alt" />
+          <img :src="`${baseUrl.endsWith('/') ? baseUrl : baseUrl + '/'}${slide.image.startsWith('/') ? slide.image.slice(1) : slide.image}`" :alt="slide.alt" />
         </div>
       </div>
       
