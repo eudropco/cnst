@@ -23,7 +23,7 @@ const marketItems = ref([
     name: 'Playstation 5', 
     image: '🎮', 
     price: 120000,
-    desc: 'Slotjack ve Oyun Performansını Bir Arada Yaşa. PS5 Pro',
+    desc: 'SlotNova ve Oyun Performansını Bir Arada Yaşa. PS5 Pro',
     stock: 'Al'
   },
   { 

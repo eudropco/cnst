@@ -6,28 +6,28 @@ const games = ref([
     id: 1, 
     name: 'Blackjack', 
     image: '🃏', 
-    badge: 'Created by Slotjack',
+    badge: 'Created by SlotNova',
     desc: 'Klasik kart oyunu'
   },
   { 
     id: 2, 
     name: 'Dice', 
     image: '🎲', 
-    badge: 'Created by Slotjack',
+    badge: 'Created by SlotNova',
     desc: 'Zar at, kazan!'
   },
   { 
     id: 3, 
     name: 'Mines', 
     image: '💣', 
-    badge: 'Created by Slotjack',
+    badge: 'Created by SlotNova',
     desc: 'Mayınlardan kaç!'
   },
   { 
     id: 4, 
     name: 'Limbo', 
     image: '🚀', 
-    badge: 'Created by Slotjack',
+    badge: 'Created by SlotNova',
     desc: 'Yüksek çarpan'
   }
 ])

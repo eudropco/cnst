@@ -8,7 +8,7 @@ const leaders = ref([
   { rank: 4, username: 'GamerPro', coins: 75000, badge: '' },
   { rank: 5, username: 'WinnerX', coins: 68400, badge: '' },
   { rank: 6, username: 'SlotFan', coins: 62100, badge: '' },
-  { rank: 7, username: 'JackpotHunter', coins: 55800, badge: '' },
+  { rank: 7, username: 'NovaHunter', coins: 55800, badge: '' },
   { rank: 8, username: 'BonusBoy', coins: 48900, badge: '' },
   { rank: 9, username: 'SpinMaster', coins: 42500, badge: '' },
   { rank: 10, username: 'CasinoKing', coins: 38700, badge: '' }

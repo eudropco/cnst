@@ -67,7 +67,7 @@ const isActive = (path: string) => route.path === path
     </router-link>
     
     <!-- Nova Puan Button -->
-    <div class="jackcoin-btn">
+    <div class="novacoin-btn">
       <span class="coin-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
       </span>
@@ -228,7 +228,7 @@ const isActive = (path: string) => route.path === path
   letter-spacing: 0.3px;
 }
 
-.jackcoin-btn {
+.novacoin-btn {
   margin: 8px 16px 20px;
   padding: 14px 18px;
   background: linear-gradient(135deg, 
@@ -251,7 +251,7 @@ const isActive = (path: string) => route.path === path
   letter-spacing: 0.5px;
 }
 
-.jackcoin-btn::before {
+.novacoin-btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -262,18 +262,18 @@ const isActive = (path: string) => route.path === path
   transition: 0.5s ease;
 }
 
-.jackcoin-btn:hover::before {
+.novacoin-btn:hover::before {
   left: 100%;
 }
 
-.jackcoin-btn:hover {
+.novacoin-btn:hover {
   background: linear-gradient(135deg, #ff2a2a 0%, #ff5555 100%);
   border-color: transparent;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 42, 42, 0.35);
 }
 
-.jackcoin-btn .coin-icon {
+.novacoin-btn .coin-icon {
   width: 28px;
   height: 28px;
   background: linear-gradient(135deg, #ff2a2a 0%, #ff5555 100%);
@@ -285,7 +285,7 @@ const isActive = (path: string) => route.path === path
   box-shadow: 0 2px 10px rgba(255, 42, 42, 0.4);
 }
 
-.jackcoin-btn:hover .coin-icon {
+.novacoin-btn:hover .coin-icon {
   background: rgba(255, 255, 255, 0.2);
 }
 

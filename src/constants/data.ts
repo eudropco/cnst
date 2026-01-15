@@ -50,7 +50,7 @@ export const slides = [
 ]
 
 export const quickLinks = [
-    { title: '150 JackCoin Kazan!', desc: 'Üye Ol', icon: '🪙', color: 'orange' },
+    { title: '150 NovaCoin Kazan!', desc: 'Üye Ol', icon: '🪙', color: 'orange' },
     { title: 'Puanları Topla!', desc: 'Her Gün Giriş Yap', icon: '⭐', color: 'blue' },
     { title: 'Sponsorlar', desc: 'İncele', icon: '🏆', color: 'purple' },
     { title: 'Canlı Yayın', desc: 'İzle', icon: '📺', color: 'green' }
@@ -75,11 +75,11 @@ export const initialTicketEvents = [
 ]
 
 export const socialTasks = [
-    { platform: 'Telegram', icon: 'telegram', reward: '100 JackCoin Kazan!' },
-    { platform: 'Twitter', icon: 'twitter', reward: '100 JackCoin Kazan!' },
-    { platform: 'Instagram', icon: 'instagram', reward: '100 JackCoin Kazan!' },
-    { platform: 'Youtube', icon: 'youtube', reward: '100 JackCoin Kazan!' },
-    { platform: 'Kick', icon: 'kick', reward: '100 JackCoin Kazan!' }
+    { platform: 'Telegram', icon: 'telegram', reward: '100 NovaCoin Kazan!' },
+    { platform: 'Twitter', icon: 'twitter', reward: '100 NovaCoin Kazan!' },
+    { platform: 'Instagram', icon: 'instagram', reward: '100 NovaCoin Kazan!' },
+    { platform: 'Youtube', icon: 'youtube', reward: '100 NovaCoin Kazan!' },
+    { platform: 'Kick', icon: 'kick', reward: '100 NovaCoin Kazan!' }
 ]
 
 // ===== CASINO DATA =====

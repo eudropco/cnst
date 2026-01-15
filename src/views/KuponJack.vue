@@ -27,11 +27,11 @@ const coupons = ref([
 </script>
 
 <template>
-  <div class="kuponjack-page">
+  <div class="kuponnova-page">
     <div class="section-header">
       <h3 class="section-title">
         <span class="title-icon">📝</span>
-        KuponJack - Günün Kuponları
+        KuponNova - Günün Kuponları
       </h3>
     </div>
     
@@ -66,7 +66,7 @@ const coupons = ref([
 </template>
 
 <style scoped>
-.kuponjack-page {
+.kuponnova-page {
   animation: slideUp 0.5s ease;
 }
 </style>

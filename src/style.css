@@ -312,7 +312,7 @@ img {
   box-shadow: var(--glow-violet);
 }
 
-.jackcoin-btn {
+.novacoin-btn {
   margin: 16px 20px;
   padding: 12px 16px;
   background: var(--gradient-aurora-soft);
@@ -331,7 +331,7 @@ img {
   overflow: hidden;
 }
 
-.jackcoin-btn::before {
+.novacoin-btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -342,17 +342,17 @@ img {
   transition: var(--transition-slow);
 }
 
-.jackcoin-btn:hover::before {
+.novacoin-btn:hover::before {
   left: 100%;
 }
 
-.jackcoin-btn:hover {
+.novacoin-btn:hover {
   background: var(--gradient-aurora);
   transform: translateY(-2px);
   box-shadow: var(--glow-aurora);
 }
 
-.jackcoin-btn .coin-icon {
+.novacoin-btn .coin-icon {
   width: 24px;
   height: 24px;
   background: var(--gradient-aurora);
@@ -2045,7 +2045,7 @@ img {
   }
 
   .sidebar-logo .logo-text,
-  .jackcoin-btn span,
+  .novacoin-btn span,
   .nav-item span:not(.nav-icon),
   .nav-item .nav-badge,
   .nav-item .dropdown-icon {
@@ -2054,7 +2054,7 @@ img {
   }
 
   .sidebar:hover .sidebar-logo .logo-text,
-  .sidebar:hover .jackcoin-btn span,
+  .sidebar:hover .novacoin-btn span,
   .sidebar:hover .nav-item span:not(.nav-icon),
   .sidebar:hover .nav-item .nav-badge,
   .sidebar:hover .nav-item .dropdown-icon {
