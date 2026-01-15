@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const leaders = ref([
-  { rank: 1, username: 'SlotKing2024', coins: 125000, badge: '👑' },
+  { rank: 1, username: 'SlotKing2026', coins: 125000, badge: '👑' },
   { rank: 2, username: 'LuckyPlayer', coins: 98500, badge: '🥈' },
   { rank: 3, username: 'BetMaster', coins: 87300, badge: '🥉' },
   { rank: 4, username: 'GamerPro', coins: 75000, badge: '' },

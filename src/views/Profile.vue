@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const user = ref({
   username: 'NovaMember',
   email: 'user@example.com',
-  joinDate: '15 Ocak 2024',
+  joinDate: '15 Ocak 2026',
   novaPuan: 1250,
   level: 'Gold',
   avatar: '👤'

@@ -145,7 +145,7 @@ import {
     <footer class="quick-bar">
       <div class="quick-bar-content">
         <div class="quick-left">
-          <span class="copyright">© 2024 NovaMARKET</span>
+          <span class="copyright">© 2026 NovaMARKET</span>
         </div>
         
         <div class="quick-actions">

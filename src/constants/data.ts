@@ -215,7 +215,7 @@ export const casinos: Casino[] = [
         hasMobileApp: true,
         hasLiveCasino: true,
         minDeposit: '75₺',
-        established: 2024,
+        established: 2026,
         games: 2500,
         color: '#ec4899'
     },

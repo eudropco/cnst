@@ -22,7 +22,7 @@
       </div>
       
       <div class="footer-copyright">
-        2024 NovaMARKET Tüm Hakları Saklıdır. | info@novamarket.com
+        2026 NovaMARKET Tüm Hakları Saklıdır. | info@novamarket.com
       </div>
     </div>
   </footer>
