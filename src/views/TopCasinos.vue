@@ -351,5 +351,75 @@ const topCasinos = computed(() => {
   .casino-features {
     justify-content: center;
   }
+  
+  .page-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 18px;
+    gap: 8px;
+  }
+  
+  .title-icon {
+    font-size: 24px;
+  }
+  
+  .page-subtitle {
+    font-size: 13px;
+  }
+  
+  .top-casino-card {
+    padding: 16px;
+    gap: 12px;
+  }
+  
+  .rank-badge {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+  
+  .casino-logo {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+  }
+  
+  .casino-info h3 {
+    font-size: 16px;
+  }
+  
+  .bonus-amount {
+    font-size: 20px;
+  }
+  
+  .btn-visit {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  
+  .criteria-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .criteria-item {
+    padding: 14px;
+  }
+  
+  .criteria-icon {
+    font-size: 24px;
+  }
+  
+  .criteria-item h4 {
+    font-size: 14px;
+  }
+  
+  .criteria-item p {
+    font-size: 11px;
+  }
 }
 </style>

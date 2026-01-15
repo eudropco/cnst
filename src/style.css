@@ -2098,6 +2098,7 @@ img {
 
   .social-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
 
   .coupons-grid {
@@ -2106,32 +2107,194 @@ img {
 
   .games-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
 
   .slot-games-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .quick-links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .event-card {
+    padding: 16px;
+  }
+
+  .event-prize {
+    font-size: 28px;
+  }
+
+  .social-card {
+    padding: 16px;
+  }
+
+  .quick-link-card {
+    padding: 14px;
+  }
+
+  .modal {
+    margin: 16px;
+    padding: 24px;
+    max-width: calc(100vw - 32px);
   }
 }
 
 @media (max-width: 480px) {
   .quick-links {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .social-grid {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .games-grid {
     grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .slot-games-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
   }
 
   .modal {
-    margin: 16px;
-    padding: 24px;
+    margin: 12px;
+    padding: 20px;
+    border-radius: var(--radius-lg);
+  }
+
+  .section-title {
+    font-size: 16px;
+  }
+
+  .title-icon {
+    font-size: 20px;
+  }
+
+  .event-card {
+    padding: 14px;
+  }
+
+  .event-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .event-logo {
+    margin: 0 auto;
+  }
+
+  .event-prize {
+    font-size: 24px;
+  }
+
+  .event-countdown {
+    gap: 8px;
+  }
+
+  .countdown-item {
+    min-width: 40px;
+  }
+
+  .countdown-value {
+    font-size: 18px;
+  }
+
+  .countdown-label {
+    font-size: 9px;
+  }
+
+  .event-btn {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+
+  .social-card {
+    padding: 14px;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .social-card h4 {
+    font-size: 14px;
+  }
+
+  .social-reward {
+    font-size: 11px;
+    padding: 4px 10px;
+  }
+
+  .social-btn {
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+
+  .quick-link-card {
+    padding: 12px;
+  }
+
+  .quick-link-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .quick-link-text h4 {
+    font-size: 13px;
+  }
+
+  .quick-link-text p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 360px) {
+  .events-grid {
+    gap: 12px;
+  }
+
+  .event-countdown {
+    gap: 6px;
+  }
+
+  .countdown-item {
+    min-width: 36px;
+    padding: 6px 4px;
+  }
+
+  .countdown-value {
+    font-size: 16px;
+  }
+
+  .quick-link-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
   }
 }

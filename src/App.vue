@@ -742,5 +742,88 @@ import {
   .action-text {
     display: none;
   }
+  
+  .main-content {
+    padding: 16px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  
+  .top-bar {
+    padding: 0 12px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+  }
+  
+  .logo-glow {
+    display: none;
+  }
+  
+  .quick-bar {
+    height: 50px;
+  }
+  
+  .quick-bar-content {
+    padding: 0 16px;
+    justify-content: center;
+  }
+  
+  .copyright {
+    font-size: 11px;
+  }
+  
+  .social-links {
+    display: none;
+  }
+  
+  .auth-btn {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+  
+  .mobile-link {
+    padding: 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 12px;
+    margin-top: 60px;
+  }
+  
+  .top-bar {
+    height: 60px;
+  }
+  
+  .logo-text {
+    font-size: 16px;
+  }
+  
+  .mobile-toggle {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+  
+  .auth-buttons {
+    gap: 6px;
+  }
+  
+  .auth-btn {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+  
+  .mobile-menu {
+    padding: 16px;
+    top: 60px;
+  }
+  
+  .mobile-auth {
+    flex-direction: column;
+  }
 }
 </style>

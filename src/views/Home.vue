@@ -254,4 +254,46 @@ onUnmounted(() => {
   display: block;
   border-radius: var(--radius-xl);
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-slider {
+    border-radius: var(--radius-lg);
+    margin-bottom: 16px;
+  }
+  
+  .image-slide img {
+    border-radius: var(--radius-lg);
+  }
+  
+  .slider-nav {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+  
+  .slider-dots {
+    bottom: 8px;
+  }
+  
+  .slider-dot {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-slider {
+    border-radius: var(--radius-md);
+    margin-bottom: 12px;
+  }
+  
+  .image-slide img {
+    border-radius: var(--radius-md);
+  }
+  
+  .slider-nav {
+    display: none;
+  }
+}
 </style>

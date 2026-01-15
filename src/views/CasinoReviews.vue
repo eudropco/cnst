@@ -435,5 +435,78 @@ const renderStars = (rating: number) => {
   .casino-actions {
     flex-direction: column;
   }
+  
+  .page-title {
+    font-size: 22px;
+  }
+  
+  .casino-card {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 18px;
+    gap: 8px;
+  }
+  
+  .title-icon {
+    font-size: 24px;
+  }
+  
+  .page-subtitle {
+    font-size: 13px;
+  }
+  
+  .filters-bar {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-group label {
+    font-size: 11px;
+  }
+  
+  .filter-group select {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+  
+  .casino-card {
+    padding: 14px;
+  }
+  
+  .casino-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+  
+  .casino-logo {
+    margin: 0 auto;
+  }
+  
+  .casino-rating {
+    justify-content: center;
+  }
+  
+  .casino-bonus {
+    text-align: center;
+  }
+  
+  .bonus-amount {
+    font-size: 20px;
+  }
+  
+  .casino-actions {
+    gap: 8px;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
 }
 </style>
