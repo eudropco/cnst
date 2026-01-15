@@ -209,7 +209,7 @@ export const casinos: Casino[] = [
         bonusAmount: '6.000₺',
         licenses: ['MGA', 'Curacao'],
         paymentMethods: ['Papara', 'Kripto', 'Havale', 'Ecopayz'],
-        features: ['Jackpot Oyunları', 'Slot Turnuvaları'],
+        features: ['NovaPot Oyunları', 'Slot Turnuvaları'],
         isNew: true,
         isFeatured: false,
         hasMobileApp: true,

@@ -28,6 +28,7 @@ import Leaderboard from '../views/Leaderboard.vue'
 import SpecialOdds from '../views/SpecialOdds.vue'
 import GamePicker from '../views/GamePicker.vue'
 import UserSubmissions from '../views/UserSubmissions.vue'
+import KuponNova from '../views/KuponNova.vue'
 
 // Info Views
 import PaymentMethods from '../views/PaymentMethods.vue'
@@ -67,7 +68,9 @@ const routes = [
   // Games
   { path: '/ozel-oranlar', name: 'SpecialOdds', component: SpecialOdds },
   { path: '/oyun-secici', name: 'GamePicker', component: GamePicker },
+  { path: '/oyun-secici', name: 'GamePicker', component: GamePicker },
   { path: '/sizden-gelenler', name: 'UserSubmissions', component: UserSubmissions },
+  { path: '/kupon-nova', name: 'KuponNova', component: KuponNova },
 
   // Info
   { path: '/odeme-yontemleri', name: 'PaymentMethods', component: PaymentMethods },
