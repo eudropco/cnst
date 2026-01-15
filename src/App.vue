@@ -105,7 +105,7 @@ import {
         class="mobile-link"
         @click="mobileMenuOpen = false"
       >
-        <span>{{ item.icon }}</span>
+        <span class="mobile-icon" v-html="item.icon"></span>
         {{ item.name }}
       </RouterLink>
       <div class="mobile-auth">
@@ -666,6 +666,20 @@ import {
   border-radius: var(--radius-lg);
   color: var(--text-primary);
   font-size: 15px;
+}
+
+.mobile-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.mobile-icon :deep(svg) {
+  width: 20px;
+  height: 20px;
 }
 
 .mobile-auth {
